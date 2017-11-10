@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.golio.wordcards.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/btnStart"
+        android:layout_marginTop="78dp"
+        android:width="150dp"
+        android:onClick="openWork"
+        android:layout_alignStart="@+id/btnOptions" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options"
+        android:id="@+id/btnOptions"
+        android:layout_below="@+id/btnStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:width="150dp"
+        android:onClick="openOptions" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dictionary"
+        android:id="@+id/btnDictionary"
+        android:layout_below="@+id/btnOptions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:width="150dp"
+        android:onClick="openDictionary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:id="@+id/btnExit"
+        android:layout_marginTop="40dp"
+        android:width="150dp"
+        android:layout_below="@+id/btnDictionary"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

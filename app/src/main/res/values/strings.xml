@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WordCards</string>
+    <string name="optionsRandomWordOrder">Random word order</string>
+    <string name="optionsReverseTranslation">Reverse translation</string>
+    <string name="buttonSave">Save</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="optionStep">Step</string>
+    <string name="optionTranslation">Translation</string>
+    <string name="radioButtonEnglish">English</string>
+    <string name="radioButtonCzech">Czech</string>
+    <string name="separator">-</string>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Czech</item>
+    </string-array>
+</resources>
